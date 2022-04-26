@@ -1,6 +1,4 @@
 source "amazon-ebs" "ejemplo-basico" {
-  access_key    = "AKIA4D2DTHKJSIMGT6MU"
-  secret_key    = "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"
   region        =  "eu-west-3"
   source_ami    =  "ami-0c6ebbd55ab05f070"
   instance_type =  "t2.micro"
