@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "name": "ejemplo-basico",
+      "builder_type": "amazon-ebs",
+      "build_time": 1650952996,
+      "files": null,
+      "artifact_id": "eu-west-3:ami-08df134950a5595d3",
+      "packer_run_uuid": "7af76bc7-2fbc-5f88-c88b-aa2313756c9f",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "7af76bc7-2fbc-5f88-c88b-aa2313756c9f"
+}
