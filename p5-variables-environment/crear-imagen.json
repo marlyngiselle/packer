@@ -1,11 +1,15 @@
 {
     "variables": {
-        "nombre_imagen": "mi-super-ami"
+        "nombre_imagen": "mi-super-ami",
+        "access_key": "{{env `ACCESS_KEY`}}",
+        "secret_key": "{{env `SECRET_KEY`}}"
     },
     "builders": [
         {
             "type": "amazon-ebs",
             "region": "eu-west-3",
+            "access_key": "{{user `access_key`}}",
+            "secret_key": "{{user `secret_key`}}",
             "ami_name": "{{user `nombre_imagen`}}",
             "source_ami": "ami-0c6ebbd55ab05f070",
             "instance_type": "t2.micro",
